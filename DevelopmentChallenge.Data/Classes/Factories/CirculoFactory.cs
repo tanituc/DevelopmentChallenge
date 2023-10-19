@@ -1,17 +1,17 @@
 ﻿using DevelopmentChallenge.Data.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevelopmentChallenge.Data.Classes.Factories
 {
-    public class CirculoFactory : FormaFactory
+    public class CirculoFactory : FormaFactory, IFormaFactory
     {
-        public override IForma CreateForma(decimal lado)
+        private decimal radio;
+        public CirculoFactory(decimal radio, int id = 3) : base(id)
         {
-            return new Circulo(lado);
+            this.radio = radio;
+        }
+        public override IForma CreateForma()
+        {
+            return new Circulo(radio);
         }
     }
 }

@@ -1,17 +1,17 @@
 ﻿using DevelopmentChallenge.Data.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevelopmentChallenge.Data.Classes.Factories
 {
-    public abstract class FormaFactory
+    public abstract class FormaFactory : IFormaFactory
     {
-        public abstract IForma CreateForma(decimal lado);
-        public IForma OrderForma(decimal lado) {
-            IForma forma = CreateForma(lado);
+        public int id;
+        public FormaFactory(int id)
+        {
+            this.id = id;
+        }
+        public abstract IForma CreateForma();
+        public IForma GetForma() {
+            IForma forma = CreateForma();
             forma.CalcularArea();
             forma.CalcularPerimetro();
             return forma;

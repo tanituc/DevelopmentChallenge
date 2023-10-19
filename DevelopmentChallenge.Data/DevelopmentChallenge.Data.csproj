@@ -52,26 +52,50 @@
     <Compile Include="Classes\Factories\TrapecioFactory.cs" />
     <Compile Include="Classes\Factories\TrianguloEquilateroFactory.cs" />
     <Compile Include="Classes\FormaGeometrica.cs" />
+    <Compile Include="Classes\Output.cs" />
     <Compile Include="Classes\Trapecio.cs" />
     <Compile Include="Classes\TrianguloEquilatero.cs" />
     <Compile Include="Interfaces\IForma.cs" />
+    <Compile Include="Interfaces\IFormaGeometrica.cs" />
+    <Compile Include="Interfaces\IFromaFactory.cs" />
     <Compile Include="Messages.Designer.cs">
+      <DependentUpon>Messages.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.it-IT.Designer.cs">
+      <DependentUpon>Messages.it-IT.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Messages.es-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.es-ES.resx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Toolkit\LanguagesEnum.cs" />
+    <Compile Include="Toolkit\SingletonLists.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Messages.resx">
+    <EmbeddedResource Include="Messages.it-IT.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.it-IT.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Messages.en-US.resx" />
+    <EmbeddedResource Include="Messages.es-ES.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.es-ES.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

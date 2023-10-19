@@ -70,7 +70,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Círculo.
+        ///   Looks up a localized string similar to Circle.
         /// </summary>
         public static string CircleName {
             get {
@@ -79,7 +79,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Círculos.
+        ///   Looks up a localized string similar to Circles.
         /// </summary>
         public static string CircleNamePlural {
             get {
@@ -88,7 +88,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;Lista vacía de formas!&lt;/h1&gt;.
+        ///   Looks up a localized string similar to &lt;h1&gt;Empty list of shapes!&lt;/h1&gt;.
         /// </summary>
         public static string EmptyList {
             get {
@@ -106,7 +106,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;Reporte de Formas&lt;/h1&gt;.
+        ///   Looks up a localized string similar to &lt;h1&gt;Shapes report&lt;/h1&gt;.
         /// </summary>
         public static string Header {
             get {
@@ -115,7 +115,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Perimetro.
+        ///   Looks up a localized string similar to Perimeter.
         /// </summary>
         public static string PerimeterWord {
             get {
@@ -124,7 +124,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Formas.
+        ///   Looks up a localized string similar to Shapes.
         /// </summary>
         public static string ShapesWord {
             get {
@@ -133,7 +133,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cuadrado.
+        ///   Looks up a localized string similar to Square.
         /// </summary>
         public static string SquareName {
             get {
@@ -142,7 +142,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cuadrados.
+        ///   Looks up a localized string similar to Squares.
         /// </summary>
         public static string SquareNamePlural {
             get {
@@ -151,7 +151,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Trapecio.
+        ///   Looks up a localized string similar to TrapezeName.
         /// </summary>
         public static string TrapezeName {
             get {
@@ -160,7 +160,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Trapecios.
+        ///   Looks up a localized string similar to TrapezePlural.
         /// </summary>
         public static string TrapezeNamePlural {
             get {
@@ -169,7 +169,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Triángulo.
+        ///   Looks up a localized string similar to Triangle.
         /// </summary>
         public static string TriangleName {
             get {
@@ -178,7 +178,7 @@ namespace DevelopmentChallenge.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Triángulos.
+        ///   Looks up a localized string similar to Triangles.
         /// </summary>
         public static string TriangleNamePlural {
             get {

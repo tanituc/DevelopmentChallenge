@@ -1,17 +1,17 @@
 ﻿using DevelopmentChallenge.Data.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevelopmentChallenge.Data.Classes.Factories
 {
     public class CuadradoFactory : FormaFactory
     {
-        public override IForma CreateForma(decimal lado)
+        private decimal lado;
+        public CuadradoFactory(decimal lado, int id = 1): base(id)
         {
-            return new Cuadrado(lado);
+            this.lado = lado;
+        }
+        public override IForma CreateForma()
+        {
+            return new Cuadrado(this.lado);
         }
     }
 }

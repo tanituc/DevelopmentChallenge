@@ -1,10 +1,5 @@
 ﻿using DevelopmentChallenge.Data.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevelopmentChallenge.Data.Classes
 {
@@ -23,7 +18,7 @@ namespace DevelopmentChallenge.Data.Classes
 
         public decimal CalcularPerimetro()
         {
-            return (decimal)Math.PI * lado;
+            return 4 * lado;
         }
     }
 }

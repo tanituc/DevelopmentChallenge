@@ -121,42 +121,42 @@
     <value>Area</value>
   </data>
   <data name="CircleName" xml:space="preserve">
-    <value>Circle</value>
+    <value>Cerchio</value>
   </data>
   <data name="CircleNamePlural" xml:space="preserve">
-    <value>Circles</value>
+    <value>Cerchi</value>
   </data>
   <data name="EmptyList" xml:space="preserve">
-    <value>&lt;h1&gt;Empty list of shapes!&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;Lista vuota di forme!&lt;/h1&gt;</value>
   </data>
   <data name="FooterTitle" xml:space="preserve">
-    <value>TOTAL:&lt;br/&gt;</value>
+    <value>TOTALE:&lt;br/&gt;</value>
   </data>
   <data name="Header" xml:space="preserve">
-    <value>&lt;h1&gt;Shapes report&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;Report di forme&lt;/h1&gt;</value>
   </data>
   <data name="PerimeterWord" xml:space="preserve">
-    <value>Perimeter</value>
+    <value>Perimetro</value>
   </data>
   <data name="ShapesWord" xml:space="preserve">
-    <value>Shapes</value>
+    <value>Forme</value>
   </data>
   <data name="SquareName" xml:space="preserve">
-    <value>Square</value>
+    <value>Quadrato</value>
   </data>
   <data name="SquareNamePlural" xml:space="preserve">
-    <value>Squares</value>
+    <value>Quadrati</value>
   </data>
   <data name="TrapezeName" xml:space="preserve">
-    <value>TrapezeName</value>
+    <value>Trapezio</value>
   </data>
   <data name="TrapezeNamePlural" xml:space="preserve">
-    <value>TrapezePlural</value>
+    <value>Trapezi</value>
   </data>
   <data name="TriangleName" xml:space="preserve">
-    <value>Triangle</value>
+    <value>Triangolo</value>
   </data>
   <data name="TriangleNamePlural" xml:space="preserve">
-    <value>Triangles</value>
+    <value>Triangoli</value>
   </data>
 </root>

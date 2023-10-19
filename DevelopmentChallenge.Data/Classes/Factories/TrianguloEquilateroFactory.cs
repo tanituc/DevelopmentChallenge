@@ -1,15 +1,15 @@
 ﻿using DevelopmentChallenge.Data.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevelopmentChallenge.Data.Classes.Factories
 {
     public class TrianguloEquilateroFactory : FormaFactory
     {
-        public override IForma CreateForma(decimal lado)
+        private decimal lado;
+        public TrianguloEquilateroFactory(decimal lado, int id = 2): base(id)
+        {
+            this.lado = lado;
+        }
+        public override IForma CreateForma()
         {
             return new TrianguloEquilatero(lado);
         }

@@ -1,29 +1,25 @@
 ﻿using DevelopmentChallenge.Data.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevelopmentChallenge.Data.Classes
 {
     public class Circulo : IForma
     {
         public const int Id = 3;
-        private readonly decimal lado;
-        public Circulo(decimal lado)
+        private readonly decimal radio;
+        public Circulo(decimal radio)
         {
-            this.lado =  lado;
+            this.radio = radio;
         }
 
         public decimal CalcularArea()
         {
-            return (decimal)Math.PI * (lado / 2) * (lado / 2);
+            return (decimal)Math.PI * (radio / 2) * (radio / 2);
         }
 
         public decimal CalcularPerimetro()
         {
-            return (decimal)Math.PI * lado;
+            return (decimal)Math.PI * radio;
         }
     }
 }
